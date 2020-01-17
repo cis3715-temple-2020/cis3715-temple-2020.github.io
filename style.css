@@ -1,0 +1,267 @@
+#container {
+	width: 1000px;
+	height: 10000px;
+	margin: 0 auto;
+	font-family: Lucida Grande, Tahoma, Arial, Helvetica, sans-serif; /* Lucida Grande for the Macs, Tahoma for the PCs */;
+	font-size: 12px;
+	line-height: 1.6em;
+	color: #666666;
+	background-color: #FFF;
+}
+
+h1 {
+	background-image:url(http://snap.stanford.edu/images/h1_img.gif);
+	line-height:1.5em;
+	background-repeat:no-repeat;
+	text-indent:42px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+	margin-bottom: 30px;
+	background-color: #FFF;
+	color: #2968d0;
+}
+
+h2 {
+	background-image:url(http://snap.stanford.edu/images/h2_img.gif);
+	background-repeat:no-repeat;
+	text-indent:33px;
+	font-weight: bold;
+	line-height:1.4em;
+	color: #6eaf2f;
+	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FFF;
+	margin: 17px 0px 13px 0px;
+}
+
+h3
+{
+	background-image:url(http://snap.stanford.edu/images/h3_img.gif);
+	background-repeat:no-repeat;
+	line-height:1.2em;
+	text-indent:26px;
+	font-weight: bold;
+	color: #ff8b00;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FFF;
+}
+
+a {
+	color:#0066FF;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#0000FF;
+	background-color: #F5F5F5;
+}
+
+
+form {
+	float:right;
+	margin-top: -45px;
+	font-size: 9px;
+}
+
+input {
+	background-color: #FFF;
+	color: #999999;
+	border: 1px solid #CCC;
+	font-size: 11px;
+	padding: 3px;
+}
+
+.button {
+	padding: 2px;
+}
+
+
+#header { height: 109px;	
+	/*background: url('../header.jpg') no-repeat center top;*/
+	background: inherit;
+	margin-bottom: 0px; 
+	overflow: hidden; }
+
+#header h1
+{
+	color: NAVY;
+	padding-top: 25px;
+	background: inherit;
+	font-style: normal;
+	font-variant: normal;
+	font-size: xx-large;
+	line-height: normal;
+	font-family: Tahoma, Verdana, Arial, Sans-Serif;
+	text-align: center;
+	font-weight: normal;
+	border-bottom: 2px dotted #97AAEC;
+}
+
+
+#header p {
+	margin-top: -15px;
+	margin-left: 3px;
+	color: #666666;
+	font-size: 14px;
+}
+
+
+#navigation ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: none;			
+	float: left;
+	width: 100px;
+}
+
+#navigation li {
+	padding-bottom: 1px;
+}
+
+#navigation a {
+	display: block;
+	padding: 4px;
+	width: 110px;
+	border-bottom: 1px solid #97AAEC;
+}
+
+#navigation a:link, #navlist a:visited {
+	color:Navy;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	background: #F5F5F5 url('../arrow.gif') no-repeat 96% 50%;
+	color:#6699FF;
+}
+
+
+#navigation p {
+	margin-top: 40px;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+	border-top: 1px dotted #CCC;
+}
+
+
+#content {
+	width: 450px;
+	margin-left: 140px;
+	margin-right:200px;
+}
+
+#content2 {
+	width: 650px;
+	margin-left: 140px;
+	margin-right:5px;
+}
+
+#regulrarPageContent {
+	width: 650px;
+	margin-left: 140px;
+	margin-right:5px;
+}
+
+#content p {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #DDDDDD; /* A faint grey line below the text */
+}
+
+#content2 p
+{
+	padding-left: 5px;
+	/*border-bottom: 1px solid #DDDDDD;*/
+	/*border-left-style: double; border-bottom-width: 1px;	*/
+	/*margin-left: 40px;*/
+	font-weight:bold;
+}
+
+#regulrarPageContent p {
+	padding-bottom: 5px;
+	/*border-bottom: 1px solid #DDDDDD; /* A faint grey line below the text */
+}
+
+#regulrarPageContent a:hover
+{
+	color: #0000FF; /*background-color: #F5F5F5;*/
+	text-decoration: underline;
+}
+
+#sidebar {
+	float: right;
+	width: 175px;
+}
+
+#sidebar p {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+#footer p {
+	color:#FFFFFF;
+	padding: 5px;
+}
+
+#footer p a {
+	color: #FFFFFF;
+	border-bottom: 1px dotted #FFFFFF;
+}
+
+#footer p a:hover {
+	color: #FFFFFF;
+	background-color:#FFFFFF;
+}
+
+#sidebar h5
+{
+	color: Navy;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #97AAEC;
+}
+#paragraphEnumeration
+{
+	color: #000000;
+}
+
+li
+{
+}
+
+#paperName
+{
+	color: #990033;
+	font-weight: bold;
+}
+
+/*From stanford for formatting tables*/
+#datatab2
+{
+background: white;
+margin: 10px;
+border-collapse: collapse;
+text-align: left;
+width: 680px;
+}
+#datatab2 th
+{
+font-size: 14px;
+font-weight: normal;
+color: white;
+background: #74a743;
+padding: 5px 10px;
+text-align: left;
+}
+
+#datatab2 td
+{
+border-bottom: 1px solid #ccc;
+color: black;
+padding: 3px 8px;
+}
+
+#datatab2 tbody tr:hover td {
+color: #000;
+background: #eeeeee;
+}
