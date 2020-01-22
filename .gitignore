@@ -107,5 +107,4 @@ venv.bak/
 data/__pycache__/
 
 **/*.tsv
-**/*.csv
 models/
